@@ -10,11 +10,6 @@ function commoners(firstString,secondString) {
             }
         }
     }
-    for (let i = 0; i < results.length; i++) {
-        if (results[i] == results[i+1]) {
-            results.shift();
-        }
-    }
     console.log(results.toString());
 }
-
+commoners("houses","computers");

@@ -5,6 +5,6 @@ function areaOfTriangle(x,y,z) {
     let c = holder - z;
     let heron = a * b * c;
     let area = Math.sqrt(holder * heron);
-    console.log(area);
+    return area;
 }
 

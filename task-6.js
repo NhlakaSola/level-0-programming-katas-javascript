@@ -5,5 +5,5 @@ function maximumNum(...args){
             largest = args[i];
         }
     }
-    console.log(largest);
+    return largest;
 }

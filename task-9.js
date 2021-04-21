@@ -7,14 +7,14 @@ function vowelChecker(string) {
     for (let i = 0; i < vowels.length; i++) {
         for (let j = 0; j < checkingArray.length; j++) {
             if (vowels[i] == checkingArray[j]) {
-                results.push(vowels[i]);
+                results.unshift(vowels[i]);
             }
         }
     }
     for (let i = 0; i < results.length; i++) {
         if (results[i] == results[i+1]) {
-            results.shift();
+            results.splice(i,1);
         }
     }
-    console.log(results.toString());
+    console.log(results.toString());    
 }
