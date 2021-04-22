@@ -1,6 +1,6 @@
 function vowelChecker(string) {
     let vowels = ["a","e","i","o","u","A","E","I","O","U"];
-    
+    string = string.toLowerCase();
     let checkingArray = string.split('');
     let results = [];
 
