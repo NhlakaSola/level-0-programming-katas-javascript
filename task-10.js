@@ -21,4 +21,4 @@ function commoners(firstString,secondString) {
     }
     console.log(`Common letters: ${results.toString()}`);
 }
-commoners("houses","computers");
+
