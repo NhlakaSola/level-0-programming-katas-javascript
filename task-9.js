@@ -16,5 +16,5 @@ function vowelChecker(string) {
             results.splice(i,1);
         }
     }
-    console.log(results.toString());    
+    console.log(`Vowels: ${results.toString()}`);    
 }
