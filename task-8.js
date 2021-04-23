@@ -12,19 +12,12 @@ function hourMinuteConvertor(int){
         if (result <= 1) {
             if (int == 60) {
                 console.log(result + " hour, " + 0 + " minutes.");
-            }else if(minutes <= 1){
-                console.log(result + " hour, " + minutes + " minute.");
             }else{
                 console.log(result + " hour, " + minutes + " minutes.");
             }
         }else{
-            if (minutes <= 1) {
-                console.log(result + " hours, " + minutes + " minute.");
-            }else{
-                console.log(result + " hours, " + minutes + " minutes.");
-            }
+            console.log(result + " hours, " + minutes + " minutes.");
         }
 
     }
 }
-
